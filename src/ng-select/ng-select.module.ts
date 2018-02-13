@@ -11,6 +11,7 @@ import { VirtualScrollModule } from './virtual-scroll.component';
 import { SpinnerComponent } from './spinner.component';
 import { NgOptionComponent } from './ng-option.component';
 import { NgOptionHighlightDirective } from './ng-option-highlight.directive' ;
+import { CustomInputComponent } from '../custom-input/custom-input.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import { NgOptionHighlightDirective } from './ng-option-highlight.directive' ;
         NgLabelTemplateDirective,
         NgHeaderTemplateDirective,
         NgFooterTemplateDirective,
-        SpinnerComponent
+        SpinnerComponent,
+        CustomInputComponent
     ],
     imports: [
         CommonModule,
@@ -34,7 +36,8 @@ import { NgOptionHighlightDirective } from './ng-option-highlight.directive' ;
         NgOptionTemplateDirective,
         NgLabelTemplateDirective,
         NgHeaderTemplateDirective,
-        NgFooterTemplateDirective
+        NgFooterTemplateDirective,
+        CustomInputComponent
     ],
     providers: [
         {

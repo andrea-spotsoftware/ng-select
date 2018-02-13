@@ -1,6 +1,9 @@
 {
   "dest": "../dist",
   "lib": {
-    "entryFile": "index.ts"
+    "entryFile": "index.ts",
+    "embedded": [
+      "inputmask/dist/inputmask/inputmask.numeric.extensions"
+    ]
   }
 }

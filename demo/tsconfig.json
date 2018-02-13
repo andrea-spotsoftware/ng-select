@@ -9,7 +9,10 @@
       "@ng-select/ng-select": [
         "../../src"
       ]
-    }
+    },
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
   },
   "exclude": [
     "main-aot.ts"
